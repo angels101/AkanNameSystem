@@ -49,10 +49,39 @@ function getAkan() {
             if (day == 0) {
                 //return male [0];
             alert ("your name is " + male [0]);
-            }
-        else if (day == 1) {
-            alert("your name is" + male [1]);
-
         }
-    }
-}
+        else if (day == 1) {
+            alert("your name is " + male [1]);
+        }
+        else if (day == 2) {
+            alert("your name is " + male [2]);
+        }
+        else if (day == 3) { 
+             alert("your name is " + male [3]);
+        }
+        else if (day ==4) { 
+            alert("your name is " + male [4]);
+        }
+        else if (day ==5) { 
+            alert("your name is " + male [5]);
+        }
+        else if (day ==6) { 
+            alert("your name is " + male [6]);
+        }
+
+    } else if (ismale == false && isfemale = true) {
+        if (day == 0) {
+            //return male[0];
+            alert("your name is " + female [0]);
+        }
+        else if (day == 1) {
+            alert("your name is ") + female [1]);
+        }
+        else if (day == 2) {
+            alert("your name is ") + female [2]);
+        }
+        else if (day == 3) {
+            alert("your name is ") + female [3]);
+        }
+        else if (day == 4) {
+            alert("your name is ") + female [4]);
