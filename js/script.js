@@ -41,4 +41,18 @@ var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
-function getAkan() {}
+function getAkan() {
+    var ismale = document.getElementById('male').checked;
+    var isfemale = document.getElementById('female').checked;
+    if (ismale) == true && isfemale == false) {
+        if (ismale == true && isfemale == false) {
+            if (day == 0) {
+                //return male [0];
+            alert ("your name is " + male [0]);
+            }
+        else if (day == 1) {
+            alert("your name is" + male [1]);
+
+        }
+    }
+}
