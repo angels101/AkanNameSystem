@@ -27,4 +27,16 @@ if (month < 0 || day > 12) {
     d.setMonth(month);
 }
 
+if (month < 0) {
+    document.getElementsByClassName("yearerror").innerHtml = "Enter valid year";
+    return false;
+} else if (month == "") {
+        document.getElementsByClassName("yearerror") .innerHtml = "This field cannot be empty";
+    }
+}
 
+
+
+var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+
+function getAkan() {}
