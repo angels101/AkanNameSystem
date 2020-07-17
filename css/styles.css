@@ -58,11 +58,11 @@
   li {
       list-style: none;
   }
-  .h3 {
+  h3 {
       text-emphasis-color: white;
       text-align: center;
   }
-  .p {
+  p {
       text-align: center;
       text-decoration-style: double rgb(236, 236, 232);
   }
