@@ -69,7 +69,7 @@ function getAkan() {
             alert("your name is " + male [6]);
         }
 
-    } else if (ismale == false && isfemale = true) {
+    } else if (ismale == false && isfemale == true) {
         if (day == 0) {
             //return male[0];
             alert("your name is " + female [0]);
@@ -85,3 +85,13 @@ function getAkan() {
         }
         else if (day == 4) {
             alert("your name is ") + female [4]);
+        }
+        else if (day == 5) {
+            alert("your name is ") + female [5]);
+        }
+        else if (day == 6 {
+            alert("your name is ") + female [6]);
+        }
+    }
+     getAkan();
+}
