@@ -17,3 +17,14 @@ if (day < 0 ||day > 31 ) {
     d.setDate(date);
 }
 
+if (month < 0 || day > 12) {
+    document.getElementsByClassName("montherror").innerHtml = "Enter valid month";
+    return false;
+} else if (month == "") {
+    document.getElementsByClassName("montherror").innerHtml ="This field canot be empty"
+    return false;
+} else {
+    d.setMonth(month);
+}
+
+
