@@ -36,21 +36,18 @@
             Monday-Adowa, Teusday-Abenaa, Wednesday-Akua, Thursday-Yaa, Friday-Afua, Saturday-Ama</P>
             <form>
                 <h1 class ="text-primary">Enter Your Birth date:</h1>
-                <input type="text" id="day" class="form-control" placeholder="day">
+                <input type="date" id="day" class="form-control" required>
                 <p id="dayerror"></p>
 
-                <input type="text"id="month" class="form-control" placeholder="month">
-                <p id="montherror"></p>
-                <input type="text" id="year" class="form-control" placeholder="year">
-                <p id="yearerror"></p>
-                <hi text-primary>Select your gender</hi>
+                
+                <h1 text-primary>Select your gender</h1>
                 <label for="male">Male:</label>
                 <input type="checkbox" id="Male" class="">
                 <label for="female">Female</label>
                 <input type="checkbox" id="Female" class=""><br>
                 <p id="check-boxerror"></p>
 
-                <button type="button" onclick="fn()" class="btn btn-large btn-block btn-outline-primary">Get Akan Name</button>
+                <button type="button" onclick=" getAkan()" class="btn btn-large btn-block btn-outline-primary">Get Akan Name</button>
                 <footer id="footer">
                 <br>
                     <p>© 2020 AngelsCodex.inc</p></footer>
