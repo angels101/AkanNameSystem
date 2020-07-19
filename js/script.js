@@ -8,30 +8,30 @@ var year = parseInt(document.getElementById("year").value);
 
 
 if (day < 0 ||day > 31 ) {
-    document.getElementsByClassName("dayerror").innerHtml ="Enter valid date";
+    document.getElementsByClassName("dayerror");
     return false;
 } else if (date == "") {
-    document.getElementsByClassName("dayerror").innerHtml = "This feild cannot be empty";
+    document.getElementsByClassName("dayerror");
     return false;
 } else{
     d.setDate(date);
 }
 
 if (month < 0 || day > 12) {
-    document.getElementsByClassName("montherror").innerHtml = "Enter valid month";
+    document.getElementsByClassName("montherror");
     return false;
 } else if (month == "") {
-    document.getElementsByClassName("montherror").innerHtml ="This field cannot be empty"
+    document.getElementsByClassName("montherror");
     return false;
 } else {
     d.setMonth(month);
 }
 
 if (month < 0) {
-    document.getElementsByClassName("yearerror").innerHtml = "Enter valid year";
+    document.getElementsByClassName("yearerror");
     return false;
 } else if (month == "") {
-        document.getElementsByClassName("yearerror") .innerHtml = "This field cannot be empty";
+        document.getElementsByClassName("yearerror") ;
     }
 }
 
