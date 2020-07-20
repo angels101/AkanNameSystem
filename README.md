@@ -31,9 +31,8 @@ you were born in case you forget to select gender. The gender section is very cr
 Incase of any contibution and feedback, feel free to doso by visiting [Thislink] (https://github.com/angels101/AkanNameSystem).
                       </br>
 #### License
-  License:MIT(https://img.shields.io/badge/License-MIT-yellow.svg)]
-  ([https://opensource.org/license/MIT])
-  Copyright (c) 2020 
+  [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+  Copyright © 2020 AngelsCodex.inc
 
 
 
